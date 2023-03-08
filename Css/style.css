@@ -1,0 +1,41 @@
+.counter{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #781e89;   
+}
+.Res{
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #781e89;
+}
+.animate{
+    position: relative;
+    left: 0;
+    animation: step1 5s alternate infinite;
+
+}
+@keyframes step1{
+    0%{
+        left: 200px;
+    }
+    20%{
+        left: 100px;
+    }
+    40%{
+        left: 0;
+    }
+    60%{
+        left: -100px;
+    }
+    80%{
+        left: -200px;
+    }
+   
+    
+}
+
